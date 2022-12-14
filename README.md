@@ -15,10 +15,13 @@ The following maps are supported: BelShirVestigeLE, ProximaStationLE, and Cactus
 does not exist.
 
 For convenience, two executables have been provided:
+
 -one for playing against ProdigyBot yourself.
+
 -one for playing against ProdigyBot on the Sc2LadderServer, if you'd like to run your own bot against ours. You can also run this executable against the built-in AI (see below).
 
 Note that the executables were compiled on Windows, so they will not work on Mac or Linux.
+
 For playing against ProdigyBot yourself, make sure you've installed the required maps. Then you should be able to simply run the executable, and two instances of Starcraft should open.
 
 # Playing against the built-in AI
