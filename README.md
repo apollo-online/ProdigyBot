@@ -3,7 +3,7 @@ A bot for CMPUT 350 at UAlberta. ProdigyBot follows the same running process as 
 ProdigyBot uses a simple 4-gate rush to attack the enemy around the 3:30s mark. If the rush is successful, the army will begin attempting to "sweep" the enemy 
 base for any stray buildings. The build order used is a direct implementation of HuShang's 4-gate tutorial, [see his video here for more details](https://www.youtube.com/watch?v=F_C9Vqv6lFE).
 
-Created by Gerard Van Genderen, Bennett Wiredu, Dave Goel, and Aidan Lynch. Fall 2022.
+Created by Gerard Van Genderen, Bennett Wiredu, Dave Goel, and Aidan Lynch.
 Thanks to Devon "HuShang" Prefontaine and Josh Lucas for their help and advice while creating the bot.
 
 # Install Instructions
