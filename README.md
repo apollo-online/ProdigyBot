@@ -3,6 +3,10 @@ A bot for CMPUT 350 at UAlberta. ProdigyBot follows the same running process as 
 ProdigyBot uses a simple 4-gate rush to attack the enemy around the 3:30s mark. If the rush is successful, the army will begin attempting to "sweep" the enemy 
 base for any stray buildings. The build order used is a direct implementation of HuShang's 4-gate tutorial, [see his video here for more details](https://www.youtube.com/watch?v=F_C9Vqv6lFE).
 
+Unfortunately the bot had some strange undefined behavior during the tournament, but if you're running it against your own bot or the built-in AI it should work fine. For reference ProdigyBot came 6th place out of 11 teams.
+
+[![ProdigyBot Demo](https://i.imgur.com/94VMhI8.png)](https://www.youtube.com/watch?v=Vug0NC1Hp6s)
+
 Created by Gerard Van Genderen, Bennett Wiredu, Dave Goel, and Aidan Lynch.
 Thanks to Devon "HuShang" Prefontaine and Josh Lucas for their help and advice while creating the bot.
 
@@ -11,8 +15,8 @@ Thanks to Devon "HuShang" Prefontaine and Josh Lucas for their help and advice w
 * Starcraft 2 ([Windows](https://starcraft2.com/en-us/)) 
 * [Starcraft 2 Map Packs](https://github.com/Blizzard/s2client-proto#map-packs)
 
-The following maps are supported: BelShirVestigeLE, ProximaStationLE, and CactusValleyLE. Place the .SC2Map files in `.../Program Files (x86)/StarCraftII/Maps`, and create the Maps folder if it
-does not exist.
+The following maps are supported: BelShirVestigeLE, ProximaStationLE, and CactusValleyLE. Place the .SC2Map files in `.../Program Files (x86)/StarCraftII/Maps`.
+Create the Maps folder if it does not exist.
 
 For convenience, two executables have been provided:
 
@@ -31,7 +35,7 @@ AI by specifying command line argurments.
 For example,
 
 ```
-/SC2ProdigyBot.exe -c -a zerg -d Hard -m CactusValleyLE.SC2Map
+./SC2ProdigyBot.exe -c -a zerg -d Hard -m CactusValleyLE.SC2Map
 ```
 
 will result in the bot playing against the zerg built-in AI on hard difficulty on the map CactusValleyLE.
